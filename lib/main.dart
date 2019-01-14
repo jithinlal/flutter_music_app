@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: new Container(
                 width: 125.0,
                 height: 125.0,
-                child: RadialSeekBar(
+                child: new RadialSeekBar(
                   progressPercent: 0.2,
                   thumbPosition: 0.2,
                   child: new ClipOval(
@@ -69,6 +69,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
             ),
+          ),
+          new Container(
+            width: double.infinity,
+            height: 125.0,
           ),
           new BottomControl()
         ],
